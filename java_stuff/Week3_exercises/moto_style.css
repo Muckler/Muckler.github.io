@@ -1,0 +1,54 @@
+header {
+    background-color: lightskyblue;
+    font-size: 2em;
+}
+h1 {
+    color: orangered;
+}
+div#content {
+    width: 80%;
+    float:right;
+}
+div#sidebar {
+    /* setting sidebar to 100% of outer container div*/
+    height:100%;
+    font-size: 2em;
+    width: 20%;
+    background-color: lightslategrey;
+    float:left;
+}
+
+
+
+div.cycles {
+    background-color: rgba(204, 204, 204, 0.936);
+    padding: 5px;
+    border: 5px solid rgb(221, 55, 22);
+    margin: 10px;
+    display: inline-block;
+}
+div.cycle2 {
+    box-sizing: border-box;
+    height:100;
+    width:200;
+    background-color: lightslategray;
+    padding: 5px;
+    border: 5px solid rgb(35, 22, 221);
+    margin: 10px;
+    display: inline-block;
+}
+a:link {
+    color: rgb;
+    display: block;
+}
+a:hover {
+    font-weight: 900;
+    color: red;
+}
+.clearfix {
+    clear:both;
+}
+footer {
+    font-size: 2em;
+    background-color: lightskyblue
+}
