@@ -1,0 +1,16 @@
+body.set_margin {
+    margin:6;
+}
+div.side_bar {
+    float:left;
+    width:19%;
+    border: solid black;
+}
+div.main {
+    float:right;
+    width:80%;
+    border: solid darkblue;
+}
+div.clear_fix {
+    clear:both; 
+}
