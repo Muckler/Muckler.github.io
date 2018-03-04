@@ -1,0 +1,15 @@
+var myNumb = [1, 45, 3, -6, 44, 32, -8, 7, -82]
+
+var newNum = myNumb.map(function(e) {
+    if (e > 0) {
+        return e;
+    }
+})
+console.log(newNum);
+
+var evenNum = myNumb.map(function(e) {
+    if (e % 2 === 0) {
+        return e;
+    }
+})
+console.log(evenNum);
