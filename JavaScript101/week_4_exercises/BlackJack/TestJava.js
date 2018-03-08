@@ -17,18 +17,21 @@ var deck = [{point: 1, suit: 'hearts'},  {point: 1, suit: 'diamonds'}, {point: 1
 {point: 11, suit: 'hearts'},  {point: 11, suit: 'diamonds'}, {point: 11, suit: 'clubs'}, {point: 11, suit: 'spades'},
 {point: 12, suit: 'hearts'},  {point: 12, suit: 'diamonds'}, {point: 12, suit: 'clubs'}, {point: 12, suit: 'spades'},
 {point: 13, suit: 'hearts'},  {point: 13, suit: 'diamonds'}, {point: 13, suit: 'clubs'}, {point: 13, suit: 'spades'}]
-
+//gives me a random number to index the deck and pick a card
 var randomNumberBetween0and52 = Math.floor(Math.random() * (52));
 
 console.log(randomNumberBetween0and52);
-
+//drawing a card from the deck of cards
 var newCard = deck[randomNumberBetween0and52]
 
 console.log(newCard);
 //can't get newCard pushed into dealerHand
 dealerHand.push(newCard);
 
-console.log(dealerHand + "random card");
+//console.log(dealerHand.lastIndexOf() + "random card");
+//console.log(dealerHand[0].suit + "random card");
+console.log(dealerHand[0]);
+//console.log(dealerHand + "random card");
 
 var addCard = document.createElement('img');
 console.log(addCard);
