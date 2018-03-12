@@ -1,0 +1,39 @@
+h1 {
+    width:20px;
+    height:20px;
+    border-top: 50px solid black;
+    border-left:50px solid black;
+    border-right: 50px solid black;
+    border-bottom:50px solid black;
+}
+
+h2 {
+    width:200px;
+    height:20px;
+    border-top: 150px solid black;
+    border-left:50px solid black;
+    border-right: 50px solid black;
+    border-bottom:150px solid black;
+}
+
+h3 {
+    width:200;
+    height:200;
+    border: solid 50px red;
+    border-radius: 15px 15px 15px 15px;
+    display:block;
+}
+h4 {
+    width:0;
+    height:0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom:100px solid red;
+}
+h5 {
+    width:0;
+    height:0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-top:100px solid red; 
+}

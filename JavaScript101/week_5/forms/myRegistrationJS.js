@@ -15,13 +15,14 @@
 
     var fname = document.getElementById("firstName");
 
+    // use event listener to test validity could also set reuglar expression to variable called re and test with re.test(fname.value)
     fname.addEventListener("input", function (event) {
         if (fname.validity.patternMismatch) {
             fname.setCustomValidity("Letters only please.");
         } else {
             fname.setCustomValidity("");
   
-        }//end of else
+        }//end of else2
 // end of function
     }, false)
 
