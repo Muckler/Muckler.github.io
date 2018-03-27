@@ -1,0 +1,14 @@
+{
+    "pets": [{
+        "title": "Australian Shepherds",
+        "picture": ["dog1.png", "dog2.png", "dog3.png", "dog4.png", "dog5.png"]
+    }, 
+    {
+        "title": "Cats",
+        "picture": ["cat1.png", "cat2.png", "cat3.png", "cat4.png", "cat5.png"]
+    },
+    {
+        "title": "Cats and Dogs",
+        "picture": ["cd1.png", "cd2.png", "cd3.png", "cd4.png", "cd5.png"]
+    }]
+}
